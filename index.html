@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equrank="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <title>Golf Tracker</title>
+</head>
+<body> 
+   
+    <h1>2021-22 World Golf Rankings</h1>
+    <img src="images/pga-logo.png" alt="pga-logo">
+    <div class="typewriter">
+        <h4 id="search-header">Search For Your Favorite Golfers Ranking</h4>
+    </div>
+    <div id="search-container">
+        
+        <input id="srch-bar" placeholder="Search Players..." type="text" value="">
+        <button id="clr-srch"> X</button>
+        
+    </div>
+    <div id="search-btn-div">
+        <button id="plyr-search">Get Player Stats</button>
+    </div>
+    
+    <div class="table-container">
+        <table id="plyr-table">
+            <tr id="p-t-head">
+                <th>RANK</th>
+                <th>PLAYER NAME</th>
+                <th>TOTAL POINTS</th>
+                <th>AVG. POINTS</th>
+                <th>POINTS GAINED</th>
+                <th>POINTS LOST</th>
+            </tr>
+            <tr id="plyr-row">
+                <td id="plyr-rank-0"></td>
+                <td id="plyr-name-0"></td>
+                <td id="plyr-total-points-0"></td>
+                <td id="plyr-avg-total-points-0"></td>
+                <td id="plyr-total-points-gained-0"></td>
+                <td id="plyr-total-points-lost-0"></td>
+            </tr>
+        </table>
+        
+    </div>
+    
+       
+    <h1 id="top-leader-header">Top Ten Leader Board</h1>
+    <button id="get-standings">Get Current Leaders</button>
+    <table id="tour-table">
+        <tr id="t-t-head">
+            <th>RANK</th>
+            <th>PLAYER NAME</th>
+            <th>TOTAL POINTS</th>
+            <th>AVG. POINTS</th>
+            <th>POINTS GAINED</th>
+            <th>POINTS LOST</th>
+        </tr>
+        <tr>
+            <td id="rank-0">1</td>
+            <td id="name-0"></td>
+            <td id="total-points-0"></td>
+            <td id="avg-points-0"></td>
+            <td id="points-gained-0"></td>
+            <td id="points-lost-0"></td>
+            
+        </tr>
+        <tr>
+            <td id="rank-1">2</td>
+            <td id="name-1"></td>
+            <td id="total-points-1"></td>
+            <td id="avg-points-1"></td>
+            <td id="points-gained-1"></td>
+            <td id="points-lost-1"></td>
+        </tr>
+        <tr>
+            <td id="rank-2">3</td>
+            <td id="name-2"></td>
+            <td id="total-points-2"></td>
+            <td id="avg-points-2"></td>
+            <td id="points-gained-2"></td>
+            <td id="points-lost-2"></td>
+        </tr>
+        <tr>
+            <td id="rank-3">4</td>
+            <td id="name-3"></td>
+            <td id="total-points-3"></td>
+            <td id="avg-points-3"></td>
+            <td id="points-gained-3"></td>
+            <td id="points-lost-3"></td>
+        </tr>
+        <tr>
+            <td id="rank-4">5</td>
+            <td id="name-4"></td>
+            <td id="total-points-4"></td>
+            <td id="avg-points-4"></td>
+            <td id="points-gained-4"></td>
+            <td id="points-lost-4"></td>
+        </tr>
+        <tr>
+            <td id="rank-5">6</td>
+            <td id="name-5"></td>
+            <td id="total-points-5"></td>
+            <td id="avg-points-5"></td>
+            <td id="points-gained-5"></td>
+            <td id="points-lost-5"></td>
+        </tr>
+        <tr>
+            <td id="rank-6">7</td>
+            <td id="name-6"></td>
+            <td id="total-points-6"></td>
+            <td id="avg-points-6"></td>
+            <td id="points-gained-6"></td>
+            <td id="points-lost-6"></td>
+        </tr>
+        <tr>
+            <td id="rank-7">8</td>
+            <td id="name-7"></td>
+            <td id="total-points-7"></td>
+            <td id="avg-points-7"></td>
+            <td id="points-gained-7"></td>
+            <td id="points-lost-7"></td>
+        </tr>
+        <tr>
+            <td id="rank-8">9</td>
+            <td id="name-8"></td>
+            <td id="total-points-8"></td>
+            <td id="avg-points-8"></td>
+            <td id="points-gained-8"></td>
+            <td id="points-lost-8"></td>
+        </tr>
+        <tr>
+            <td id="rank-9">10</td>
+            <td id="name-9"></td>
+            <td id="total-points-9"></td>
+            <td id="avg-points-9"></td>
+            <td id="points-gained-9"></td>
+            <td id="points-lost-9"></td>
+        </tr>
+      
+    </table> 
+<script src="app.js"></script>
+</body>
+</html>

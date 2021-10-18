@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url('images/golf-background2.jpg');
+    background-size: 200vh;
+    background-attachment: fixed;
+    
+    
+    
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'DM Serif Display', serif;
+    font-size: 65px;
+    text-shadow: 7px 5px 5px black;
+    color: white;
+    text-align: center;
+
+}
+h4 {
+    text-transform: capitalize;
+    font-weight: 100;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.typewriter h4 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 10px auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+      typing 5.5s steps(50, end)
+    
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+#top-leader-header {
+    margin-top: 350px;
+}
+#search-container {
+    display: block;
+    text-align: center;
+}
+
+input {
+    width: 35%;
+    font-size: 16px;
+    padding-left: 10px;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    
+}
+input:focus {
+    border: 1px solid blue;
+    transform: scale(1.05);
+}
+#clr-srch {
+    vertical-align: middle;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: grey;
+}
+#search-btn-div {
+    text-align: center;
+}
+#tour-table, #plyr-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 75vh;
+    box-shadow: 5px 5px 15px black;
+}
+#plyr-table {
+    height: 10vh;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#tour-table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+td, th {
+    text-shadow: 2px 2px 10px rgb(180, 178, 178);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background: linear-gradient(to top, #4d5bf1, #dddddd);
+    
+}
+tr:nth-child(odd) {
+    background-color: white;
+    }
+tr:nth-child(odd):hover {
+    background-color: white;
+}
+#plyr-search, #get-standings, #clr-plyr-search {
+    font-size: 15px;
+    padding: 11px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px black;
+    background-color: #6b43fa;
+    opacity: 90%;
+    color: white;
+    cursor: pointer;
+}
+#plyr-row {
+    height: 50px;
+}
+
+#plyr-search {
+    margin-top: 20px;
+}
+
+#plyr-search:hover, #get-standings:hover{
+    transition-timing-function: linear;
+    transition-duration: .2s;
+    background-color: #362575;
+    opacity: 90%;
+}
+button:hover {
+    background-color: #6b43fa;
+    opacity: 50%;
+    color: white;
+    cursor: pointer;
+}
+tr:hover {
+    background-color: #6b43fa;
+    transform: scale(1.05);
+}
+#p-t-head:hover {
+    background-color: white;
+    transform: scale(1.0);
+}
+#t-t-head:hover {
+    background-color: white;
+    transform: scale(1.0);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+}
+
